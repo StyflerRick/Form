@@ -27,7 +27,7 @@ body{
     background-color: #7796c5;
     font-family: sans-serif;
     font-size: 1em;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-top: 2%;
     justify-content: center;
 }
@@ -66,6 +66,10 @@ fieldset.grupo, .campo, .campo1{
     cursor: pointer;
 }
 
+.campo input[type="radio"], .campo1 input[type="checkbox"]{
+    cursor: pointer;
+}
+
 .campo1 input[type="text"]{
     padding: 0.2em;
     border: 2px solid #203c49;
@@ -85,6 +89,9 @@ fieldset.grupo, .campo, .campo1{
     cursor: pointer;
 }
 
-.campo input[type="radio"], .campo1 input[type="checkbox"]{
-    cursor: pointer;
+div#termo{
+    color: darkred;
+    margin-bottom: 2%;
+    font-size: 1em;
+
 }
