@@ -33,8 +33,8 @@ body{
 }
 
 input, select, textarea, button{
-    border-radius: 7px;
-    border-width: 1px;
+    border-radius: 10px;
+    border-width: 2px;
 }
 
 .campo{
@@ -59,10 +59,11 @@ fieldset.grupo, .campo, .campo1{
 }
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
-    padding: 0.2em;
+    padding: 0.4em;
     border: 2px solid #203c49;
     box-shadow: 2px 2px 2px rgba(0,0,0,0,2);
     display: block;
+    cursor: pointer;
 }
 
 .campo1 input[type="text"]{
@@ -74,11 +75,16 @@ fieldset.grupo, .campo, .campo1{
 
 .botao {
     margin-bottom: 3%;
+    padding: 0.2em;
     font-size: 1.2em;
     background-color:#31948c;
     border: 0;
     color: darkslategrey;
     padding: 0.2em 0.6em;
     box-shadow: 4px 4px 4px rgba(0,0,0,0,2);
+    cursor: pointer;
+}
+
+.campo input[type="radio"], .campo1 input[type="checkbox"]{
     cursor: pointer;
 }
