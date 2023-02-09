@@ -53,11 +53,6 @@ input, select, textarea, button{
     display: inline-block;
 }
 
-fieldset.grupo, .campo, .campo1{
-    float: block;
-    margin-right: 1em;
-}
-
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.4em;
     border: 2px solid #203c49;
