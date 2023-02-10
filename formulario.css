@@ -83,10 +83,3 @@ input, select, textarea, button{
     box-shadow: 4px 4px 4px rgba(0,0,0,0,2);
     cursor: pointer;
 }
-
-div#termo{
-    color: darkred;
-    margin-bottom: 2%;
-    font-size: 1em;
-
-}
